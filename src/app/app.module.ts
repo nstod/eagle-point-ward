@@ -7,10 +7,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { DinnersComponent } from './components/dinners/dinners.component';
+import { MissionPlanComponent } from './components/mission-plan/mission-plan.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DinnersComponent,
+    MissionPlanComponent
   ],
   imports: [
     BrowserModule,

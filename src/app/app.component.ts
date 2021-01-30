@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.less']
 })
 export class AppComponent {
-  title = 'eagle-point-ward';
+  public links = [
+    { path: '/dinners', label: 'DINNERS' },
+    { path: '/plan', label: 'MISSION PLAN' }
+  ];
 }
