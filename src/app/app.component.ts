@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public links = [
-    { path: '/dinners', label: 'DINNERS' },
+    // { path: '/dinners', label: 'DINNERS' },
     { path: '/plan', label: 'MISSION PLAN' }
   ];
 }
